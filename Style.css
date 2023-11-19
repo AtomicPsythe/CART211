@@ -9,6 +9,38 @@ body {
     /* font-size: 20px; */
 }
 
+.ahri {
+    background-image: url("links-and-images/images/Ahri\ Baddest.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.akali {
+    background-image: url("links-and-images/images/Akali\ Baddest.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.evelynn {
+    background-image: url("links-and-images/images/Evelynn\ Baddest.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.kaisa {
+    background-image: url("links-and-images/images/Kai\'sa\ Baddest.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 audio {display:none;}
 
 h1 {
