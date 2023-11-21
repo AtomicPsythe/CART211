@@ -1,6 +1,4 @@
-body {
-    color: #414141;
-    /* background-color: #FFB6C1; */
+.background {
     background-image: url("links-and-images/images/new\ background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,6 +37,16 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+.skin {
+    padding: 5px;
+    border: 5px solid #ec44ab;
+    border-radius: 20px;
+    margin: auto;
+    height: 60px;
+    width: 650px;
+    background-color: #b896c5;
 }
 
 audio {display:none;}
