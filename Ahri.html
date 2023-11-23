@@ -21,12 +21,14 @@
               font-family: Arial, Helvetica, sans-serif;
             }
             .image {
+                display: block;
                 margin-top: 30px; 
                 margin-bottom: 30px; 
                 margin-right: 20px;
                 margin-left: 20px;
             }
             .left {
+                display: block;
                 position:absolute;
                 top: 1000px;
                 right: 20px;
@@ -36,6 +38,7 @@
                 margin-right: 200px;
             }
             .topright {
+                display: block;
                 position: absolute;
                 top: 1250px;
                 margin-right: 30px;
@@ -44,6 +47,7 @@
                 font-size: 20px;
             }
             .bottomright {
+                display: block;
                 position: absolute;
                 top: 1810px;
                 bottom: 20px;
@@ -52,19 +56,24 @@
                 font-size: 18px;
             }
             .bottomleft {
+                display: block;
                 position: absolute;
                 top: 2000px;
                 bottom: 8px;
+                margin-right: 20px;
                 left: 16px;
                 font-size: 18px;
             }
             .topleft {
+                display:block;
                 position: absolute;
                 top: 1490px;
                 left: 16px;
                 font-size: 18px;
             }
             .subtext {
+                position:absolute;
+                display: block;
                 padding: 5px;
                 border: 5px solid #ec44ab;
                 border-radius: 50px;
@@ -77,8 +86,8 @@
                 margin-right: 20px;
                 margin-left: 20px;
             }
-            end {
-                position: relative;
+            .end {
+                position: absolute;
                 text-align: center;
                 color: #992a4c;
                 font-size: 30px;
@@ -94,17 +103,21 @@
         <p class="skin">Back with the baddest, Ahri steps into the spotlight once again with her girls to bring life <br> to the music world once more. By utilizing her new and improved talents, Ahri will show <br> the world what pop stars are truly made of, femininity, power, love, and friendship.</p>
         <hr/>
 
-        <img src="links-and-images/images/Ahri-asset.jpg" width="600" align="left" class="image"/>
-        <p class="topleft subtext"> KDA: CODE PINK Ahri - Asset</p>
+        <img src="links-and-images/images/Ahri-asset.jpg" width="600" class="image" ID="AHRI"/>
+        <p class="topleft subtext"> KDA: CODE PINK Ahri - Asset</p> 
+        <!-- align=left -->
 
-        <img src="links-and-images/images/Ahri-icon.jpg" width="400" class="left" class="image"/>
+        <img src="links-and-images/images/Ahri-icon.jpg" width="400" class="image"/>
         <p class="bottomleft subtext"> KDA: CODE PINK Ahri - Icon</p>
+        <!-- class=left -->
 
-        <img src="links-and-images/images/Ahri-ingame.jpg" width="800" align="right" class="image"/>
+        <img src="links-and-images/images/Ahri-ingame.jpg" width="800" class="image"/>
         <p class="topright subtext"> KDA CODE: PINK Ahri - In Game</p>
+        <!-- align=right -->
 
-        <img src="links-and-images/images/Ahri-vfx.jpg" width="800" align="right" class="image"/>
+        <img src="links-and-images/images/Ahri-vfx.jpg" width="800" class="image"/>
         <p class="bottomright subtext"> KDA CODE: PINK Ahri - VFX</p>
+        <!-- align=right -->
         <hr/>
     </body>
           

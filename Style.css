@@ -108,3 +108,11 @@ p {
     background-color: rgb(171, 70, 157);
     color: white;
 }
+
+#AHRI-ASSET {
+    display:block;
+    position: absolute;
+    top: 800px;
+    left: 16px;
+
+}
