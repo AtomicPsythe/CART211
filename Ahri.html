@@ -21,11 +21,14 @@
               font-family: Arial, Helvetica, sans-serif;
             }
             .image {
-                display: block;
-                margin-top: 30px; 
-                margin-bottom: 30px; 
+                display:block;
+                margin-top: 20px; 
+                margin-bottom: 20px; 
                 margin-right: 20px;
                 margin-left: 20px;
+                height: auto;
+                width: auto;
+                max-width: 100%;
             }
             .left {
                 display: block;
@@ -37,7 +40,7 @@
                 margin-top: 600px;
                 margin-right: 200px;
             }
-            .topright {
+            /* .topright {
                 display: block;
                 position: absolute;
                 top: 1250px;
@@ -70,10 +73,39 @@
                 top: 1490px;
                 left: 16px;
                 font-size: 18px;
+            } */
+            @media only screen and (max-width: 900px) {
+            .ahri-asset {
+                top: 680px;
+                left: 16px;
+                font-size: 18px;
+                margin-top: 200px;
+                margin-bottom:30px; 
+                margin-right: 20px;
+                margin-left: 70px;
             }
+            .ahri-icon {
+                top: 600px;
+                bottom: 8px;
+                left: 1500px;
+                font-size: 18px;
+            }
+            .ahri-ingame {
+                top: 1230px;
+                left: 20px;
+                bottom: 20px;
+                font-size: 2vh;
+            }
+            .ahri-vfx {
+                top: 1290px;
+                bottom: 20px;
+                right: 16px;
+                font-size: 18px;
+            }
+        }
             .subtext {
                 position:absolute;
-                display: block;
+                display:block;
                 padding: 5px;
                 border: 5px solid #ec44ab;
                 border-radius: 50px;
@@ -81,10 +113,15 @@
                 height: 22px;
                 width: 350px;
                 background-color: #b896c5;
-                margin-top:30px; 
-                margin-bottom:30px; 
-                margin-right: 20px;
-                margin-left: 20px;
+                margin-top: 400px; 
+                margin-bottom: 300px; 
+                margin-right: 700px;
+                margin-left: -500px;
+            }
+            .responsive {
+                height: auto;
+                width: auto;
+                max-width: 100%;
             }
             .end {
                 position: absolute;
@@ -93,6 +130,7 @@
                 font-size: 30px;
                 font-weight: bold;
             }
+            
         </style>
         </head>
     <body>
@@ -103,21 +141,23 @@
         <p class="skin">Back with the baddest, Ahri steps into the spotlight once again with her girls to bring life <br> to the music world once more. By utilizing her new and improved talents, Ahri will show <br> the world what pop stars are truly made of, femininity, power, love, and friendship.</p>
         <hr/>
 
-        <img src="links-and-images/images/Ahri-asset.jpg" width="600" class="image" ID="AHRI"/>
-        <p class="topleft subtext"> KDA: CODE PINK Ahri - Asset</p> 
+        <div class="grid-container">
+        <div><img src="links-and-images/images/Ahri-asset.jpg" width="600" class="image" /></div>
+        <div><p class="ahri-asset subtext"> KDA: CODE PINK Ahri - Asset</p></div>
         <!-- align=left -->
 
-        <img src="links-and-images/images/Ahri-icon.jpg" width="400" class="image"/>
-        <p class="bottomleft subtext"> KDA: CODE PINK Ahri - Icon</p>
+        <div><img src="links-and-images/images/Ahri-icon.jpg" width="640" height="640" class="image"/></div>
+        <div><p class="ahri-icon subtext"> KDA: CODE PINK Ahri - Icon</p></div>
         <!-- class=left -->
 
-        <img src="links-and-images/images/Ahri-ingame.jpg" width="800" class="image"/>
-        <p class="topright subtext"> KDA CODE: PINK Ahri - In Game</p>
+        <div><img src="links-and-images/images/Ahri-ingame.jpg" width="900" class="image"/></div>
+        <div><p class="ahri-ingame subtext"> KDA CODE: PINK Ahri - In Game</p></div>
         <!-- align=right -->
 
-        <img src="links-and-images/images/Ahri-vfx.jpg" width="800" class="image"/>
-        <p class="bottomright subtext"> KDA CODE: PINK Ahri - VFX</p>
+        <div><img src="links-and-images/images/Ahri-vfx.jpg" width="800" class="image"/></div>
+        <div><p class="ahri-vfx subtext"> KDA CODE: PINK Ahri - VFX</p></div>
         <!-- align=right -->
         <hr/>
+        </div>
     </body>
           

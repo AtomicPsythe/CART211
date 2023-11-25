@@ -109,10 +109,37 @@ p {
     color: white;
 }
 
+.grid-container {
+    position:absolute;
+    display: grid;
+    height: 200px;
+    grid-template-columns: auto 440px auto auto;
+    gap: 10px;
+    padding: 5px;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 20px 0;
+ }
+
 #AHRI-ASSET {
     display:block;
     position: absolute;
     top: 800px;
     left: 16px;
-
+    right: 20px;
+    bottom: 20px;
 }
