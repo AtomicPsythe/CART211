@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html class="background">
     <head>
         <div class="topnav">
             <a href="Index.html" class="center2">Home</a>
@@ -20,5 +20,99 @@
             body {
               font-family: Arial, Helvetica, sans-serif;
             }
-        </style>
-        </head>
+            html {
+                box-sizing: border-box;
+            }
+
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+
+            .column {
+                float: left;
+                width: 33.3%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 8px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+
+            .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .button:hover {
+                background-color: #555;
+            }
+
+            @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+            }
+            </style>
+            </head>
+            <body>
+
+            <div class="row">
+            <div class="column">
+                <div class="card">
+                <img src="links-and-images/images/richydraws.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Richy (@richydraws)</h2>
+                    <p class="title">Assets Artist</p>
+                    <p>Freelance illustrator and concept artist for the asset art for K/DA CODE: PINK</p>
+                    <a href="https://twitter.com/richydraws?s=21&t=B_O8DCJzu7lK6ISI7rzPDQ" class="button">Twitter</a>&nbsp;
+                    <a href="https://www.artstation.com/richydraws" class="button">Artstation</a>&nbsp; 
+                </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                <img src="links-and-images/images/emriikun.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                    <h2>Emre (@emriikun)</h2>
+                    <p class="title">Splash Art Artist</p>
+                    <p>Freelance concept artist who made the splash arts for K/DA CODE: PINK</p>
+                    <a href="https://twitter.com/emriikun?s=21&t=B_O8DCJzu7lK6ISI7rzPDQ" class="button">Twitter</a>&nbsp;
+                    <a href="https://www.artstation.com/emriikun" class="button">Artstation</a>&nbsp;
+                </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="card">
+                <img src="links-and-images/images/yoomyoomm.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    <h2>Doni (@yoomyoomm)</h2>
+                    <p class="title">In-Game and VFX Artist</p>
+                    <p>Concept artist behind the in-game models and VFX for K/DA CODE:PINK</p>
+                    <a href="https://twitter.com/yoomyoomm?s=21&t=B_O8DCJzu7lK6ISI7rzPDQ" class="button">Twitter</a>&nbsp;
+                    <a href="https://www.artstation.com/yoomyoom" class="button">Artstation</a>&nbsp;
+                </div>
+                </div>
+            </div>
+            </div>

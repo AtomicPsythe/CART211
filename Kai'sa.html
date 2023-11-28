@@ -20,6 +20,9 @@
             body {
               font-family: Arial, Helvetica, sans-serif;
             }
+            html {
+                box-sizing: border-box;
+            }
             .image {
                 /* position:fixed; */
                 margin-top: 30px; 
@@ -54,6 +57,12 @@
 
             .column2 {
                 flex: 25%;
+                max-width: 25%;
+                padding: 5px;
+            }
+
+            .column3 {
+                flex: 25%;
                 max-width: 45%;
                 padding: 5px;
             }
@@ -62,17 +71,18 @@
                 margin-top: 50px;
                 vertical-align: middle;
                 width: 100%;
-                justify-content: end;
             }
 
             .column2 img {
                 margin-top: 50px;
                 vertical-align: middle;
                 width: 100%;
-                /* max-width: 100%; */
             }
-            .right {
-                justify-self: center;
+
+            .column3 img {
+                margin-top: 50px;
+                vertical-align: middle;
+                width: 100%;
             }
 
             /* Responsive layout - makes a two column-layout instead of four columns */
@@ -82,6 +92,10 @@
                 max-width: 50%;
             }
             .column2 {
+                flex: 50%;
+                max-width: 50%;
+            }
+            .column3 {
                 flex: 50%;
                 max-width: 50%;
             }
@@ -105,6 +119,10 @@
                 flex: 100%;
                 max-width: 100%;
             }
+            .column3 {
+                flex: 100%;
+                max-width: 100%;
+            }
             .subtext {
                 flex: 100%;
                 max-width: 100%;
@@ -121,7 +139,7 @@
         <hr/>
         <u><h1>K/DA: CODE PINK Kai'sa</h1></u>
 
-        <p class="skin">Back with the baddest, Ahri steps into the spotlight once again with her girls to bring life <br> to the music world once more. By utilizing her new and improved talents, Ahri will show <br> the world what pop stars are truly made of, femininity, power, love, and friendship.</p>
+        <p class="skin">With more confidence and power than ever, Kai'sa is ready to bring her smooth moves back to the stage. While she may be reserved and disciplined off stage, Kai'sa embodies <br>her new and improved superstar persona with the rest of K/DA.</p>
         <hr/>
 
         <div class="row">
@@ -132,6 +150,10 @@
                 <p class="subtext"> KDA: CODE PINK Kai'sa - Icon</p>
             </div>
             <div class="column2">
+                <img src="links-and-images/images/transparent.png" style="width:100%">
+                <img src="links-and-images/images/transparent.png" style="width:100%">
+            </div>
+            <div class="column3">
                 <img src="links-and-images/images/Kaisa-ingame.jpg" style="width:100%">
                 <p class="subtext"> KDA CODE: PINK Kai'sa - In Game</p>
                 <img src="links-and-images/images/Kaisa-vfx.jpg" style="width:100%">

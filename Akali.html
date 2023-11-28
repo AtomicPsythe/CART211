@@ -20,6 +20,9 @@
             body {
               font-family: Arial, Helvetica, sans-serif;
             }
+            html {
+                box-sizing: border-box;
+            }
             .image {
                 position:absolute;
                 margin-top: 30px; 
@@ -54,26 +57,32 @@
 
             .column2 {
                 flex: 25%;
+                max-width: 25%;
+                padding: 5px;
+            }
+
+            .column3 {
+                flex: 25%;
                 max-width: 45%;
                 padding: 5px;
-                column-gap: 2.5em;
             }
 
             .column img {
                 margin-top: 50px;
                 vertical-align: middle;
                 width: 100%;
-                justify-content: end;
             }
 
             .column2 img {
                 margin-top: 50px;
                 vertical-align: middle;
                 width: 100%;
-                column-gap: 10%;
             }
-            .right {
-                justify-self: center;
+
+            .column3 img {
+                margin-top: 50px;
+                vertical-align: middle;
+                width: 100%;
             }
 
             /* Responsive layout - makes a two column-layout instead of four columns */
@@ -83,6 +92,10 @@
                 max-width: 50%;
             }
             .column2 {
+                flex: 50%;
+                max-width: 50%;
+            }
+            .column3 {
                 flex: 50%;
                 max-width: 50%;
             }
@@ -106,6 +119,10 @@
                 flex: 100%;
                 max-width: 100%;
             }
+            .column3 {
+                flex: 100%;
+                max-width: 100%;
+            }
             .subtext {
                 flex: 100%;
                 max-width: 100%;
@@ -122,7 +139,7 @@
         <hr/>
         <u><h1>K/DA: CODE PINK Akali</h1></u>
 
-        <p class="skin">Back with the baddest, Ahri steps into the spotlight once again with her girls to bring life <br> to the music world once more. By utilizing her new and improved talents, Ahri will show <br> the world what pop stars are truly made of, femininity, power, love, and friendship.</p>
+        <p class="skin">When the fans call, Akali answers and she's ready to bring back the fire with the comeback of K/DA. Upon learning some new skills and techniques while on break, <br>she is ready to bring the heat back with the baddest.</p>
         <hr/>
 
         <div class="row">
@@ -133,23 +150,14 @@
                 <p class="subtext"> KDA: CODE PINK Akali - Icon</p>
             </div>
             <div class="column2">
+                <img src="links-and-images/images/transparent.png" style="width:100%">
+                <img src="links-and-images/images/transparent.png" style="width:100%">
+            </div>
+            <div class="column3">
                 <img src="links-and-images/images/Akali-ingame.jpg" style="width:100%">
                 <p class="subtext"> KDA CODE: PINK Akali - In Game</p>
                 <img src="links-and-images/images/Akali-vfx.jpg" style="width:100%">
                 <p class="subtext"> KDA CODE: PINK Akali - VFX</p>
             </div>
         </div>
-        <!-- <img src="links-and-images/images/Akali-asset.jpg" width="600" align="left" class="image"/>
-        <p class="topleft subtext"> KDA: CODE PINK Akali - Asset</p>
-
-        <img src="links-and-images/images/Akali-icon.jpg" width="400" class="left" class="image"/>
-        <p class="bottomleft subtext"> KDA: CODE PINK Akali - Icon</p>
-
-        <img src="links-and-images/images/Akali-ingame.jpg" width="800" align="right" class="image"/>
-        <p class="topright subtext"> KDA CODE: PINK Akali - In Game</p>
-
-        <img src="links-and-images/images/Akali-vfx.jpg" width="800" align="right" class="image"/>
-        <p class="bottomright subtext"> KDA CODE: PINK Akali - VFX</p> -->
-        <hr/>
-        </style>
-        </head>
+    </body>

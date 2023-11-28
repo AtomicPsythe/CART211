@@ -1,2 +1,1 @@
-let mySRC = "links-and-images/Ahri Baddest.gif";
-let myStyleBackgroundImage = "url(images/kda-nightbringer.gif)"
+let ahri = new Audio("links-and-images/sound/ahri-sound.mp3");
